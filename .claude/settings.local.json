@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "Bash(npm install *)",
+      "Bash(node_modules\\\\.bin\\\\tsc --noEmit)",
+      "Skill(run)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(node *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(npm install *)",
+      "PowerShell($env:NODE_PATH = \\(npm root -g\\); node -e \"const pw = require\\('playwright'\\); console.log\\(Object.keys\\(pw\\)\\);\" 2>&1)",
+      "Bash(npm root *)",
+      "Bash(NODE_PATH=__CMDSUB_OUTPUT__ node -e ' *)",
+      "Bash(curl -s http://localhost:3000/src/audios/chest_open.mp3 -o /dev/null -w \"%{http_code}\")",
+      "PowerShell(Start-Process \"http://localhost:3000\")",
+      "Bash(pkill *)",
+      "PowerShell(\\(Get-Command npx\\).Source; npx --yes playwright chromium --version 2>&1 | Select-Object -First 3)",
+      "Bash(vercel --prod --yes)",
+      "Bash(gh auth *)",
+      "PowerShell(gh auth *)",
+      "PowerShell(npm *)",
+      "PowerShell(git *)"
+    ]
+  }
+}
