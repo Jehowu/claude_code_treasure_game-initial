@@ -4,7 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
-    base: '/claude_code_treasure_game-initial/',
+    base: process.env.VITE_BASE_URL || '/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],

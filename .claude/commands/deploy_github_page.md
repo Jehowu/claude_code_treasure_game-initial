@@ -24,11 +24,13 @@ The repo name is `claude_code_treasure_game-initial`. The live URL will be `http
 
 Check `vite.config.ts`. If `base: '/claude_code_treasure_game-initial/'` is not present, add it inside `defineConfig({`. Then rebuild.
 
-## Step 4 — Build
+## Step 4 — Build (with GitHub Pages base URL)
 
 ```powershell
 Set-Location "C:\Users\User\Downloads\claude_code_treasure_game-initial"
+$env:VITE_BASE_URL = '/claude_code_treasure_game-initial/'
 npm run build
+$env:VITE_BASE_URL = $null
 ```
 
 ## Step 5 — Initialize git and create GitHub repo if needed

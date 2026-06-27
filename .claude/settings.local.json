@@ -26,7 +26,8 @@
       "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); Set-Location \"C:\\\\Users\\\\User\\\\Downloads\\\\claude_code_treasure_game-initial\"; npx gh-pages -d build -t true 2>&1)",
       "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); Set-Location \"C:\\\\Users\\\\User\\\\Downloads\\\\claude_code_treasure_game-initial\"; npx gh-pages -d build 2>&1)",
       "PowerShell(gh api *)",
-      "WebFetch(domain:marketplace.visualstudio.com)"
+      "WebFetch(domain:marketplace.visualstudio.com)",
+      "WebFetch(domain:jehowu.github.io)"
     ]
   }
 }
