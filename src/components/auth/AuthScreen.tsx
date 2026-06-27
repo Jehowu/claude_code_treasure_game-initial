@@ -121,7 +121,7 @@ export default function AuthScreen({ onAuth }: AuthScreenProps) {
           <Button
             onClick={handleGuestPlay}
             variant="ghost"
-            className="text-amber-600 hover:bg-amber-50"
+            className="text-amber-600 hover:bg-amber-50 text-xl"
           >
             以訪客身份遊玩（不儲存分數）
           </Button>
